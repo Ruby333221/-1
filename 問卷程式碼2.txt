@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0;url=" />
+  <script>
+    const forms = [
+      "https://docs.google.com/forms/d/1vTW_Tsh2Ojq5EhgepVTjB301HztIpn8rKDJGHWY7LkU/viewform",
+      "https://docs.google.com/forms/d/1QaZBPyw_kMO8Tl0M2hGd1ckGr4DqgD3fMpHnJ68S80I/viewform",
+      "https://docs.google.com/forms/d/1zeyn-UoyaT4IUbRCxLWiqA-XdTGEzEapJCGGRLViAs4/viewform",
+      "https://docs.google.com/forms/d/1jcBjZgxS6tWyPkU-9EWZfSdLQWResMvFSi8IHqYXwhQ/viewform"
+    ];
+    const randomIndex = Math.floor(Math.random() * forms.length);
+    window.location.href = forms[randomIndex];
+  </script>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
+
