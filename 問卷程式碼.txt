@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>問卷導向中...</title>
+  <script>
+    const urls = [
+      "https://docs.google.com/forms/d/1vTW_Tsh2Ojq5EhgepVTjB301HztIpn8rKDJGHWY7LkU/viewform",
+      "https://docs.google.com/forms/d/1QaZBPyw_kMO8Tl0M2hGd1ckGr4DqgD3fMpHnJ68S80I/viewform",
+      "https://docs.google.com/forms/d/1zeyn-UoyaT4IUbRCxLWiqA-XdTGEzEapJCGGRLViAs4/viewform",
+      "https://docs.google.com/forms/d/1jcBjZgxS6tWyPkU-9EWZfSdLQWResMvFSi8IHqYXwhQ/viewform"
+    ];
+    const randomIndex = Math.floor(Math.random() * urls.length);
+    window.location.href = urls[randomIndex];
+  </script>
+</head>
+<body>
+  <p>導向問卷中，請稍候...</p>
+</body>
+</html>
+
+
